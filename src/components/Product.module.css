@@ -1,0 +1,29 @@
+.stack {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.stack:hover {
+    transform: scale(1.05);
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.tag {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff5733;
+    font-size: 1.2em;
+}
